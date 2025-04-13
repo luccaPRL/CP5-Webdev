@@ -17,4 +17,7 @@ Sua tarefa nesta atividade √© criar um App React que apresente uma lista de usu√
 
 Sim. O video abaixo ilustra como seu App deve mais ou menos ficar...
 
+https://github.com/user-attachments/assets/dfa0b535-cd27-4178-bf61-4886a121a426
+
+
 ![Video](./cp5-exemplo.mp4)
