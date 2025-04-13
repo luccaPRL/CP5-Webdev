@@ -7,3 +7,14 @@
 |---|---|---|---|
 | ```DISCIPLINA:``` | Webdev | ```PROFESSOR:``` | Marcelo Amorim |
 
+# Fake Users Revenge
+
+### Sua missão
+
+Sua tarefa nesta atividade é criar um App React que apresente uma lista de usuários falsos usando a API [randomuser.me](https://randomuser.me/) *(A free, open-source API for generating random user data. Like Lorem Ipsum, but for people)*.
+
+#### Tem um exemplo de como deveria ficar meu App?
+
+Sim. O video abaixo ilustra como seu App deve mais ou menos ficar...
+
+![Video](./cp5-exemplo.mp4)
