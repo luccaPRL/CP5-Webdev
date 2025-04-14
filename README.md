@@ -55,7 +55,7 @@ git clone https://github.com/mmamorim/CP5-Webdev.git
 
 2. Abrir pasta clonada com o VSCode
 3. Abrir terminal
-4. Executar instalção dos pacotes
+4. Executar instalação dos pacotes
 
 ~~~bash
 npm install
@@ -68,7 +68,7 @@ npm run dev
 ~~~
 
 6. Modificar apenas o componente ```FakeUser.jsx```
-   * Adicionar a captura da inicialização do componente via ```useEffect```, para realizar a chamada da API e receber os dados de um usuário falso via a API **randomuser** e alterar os dados via ```setUser()``` que implicará na atualização da renderização do componente JSX (HTML).
+   * Adicionar a captura da inicialização do componente via ```useEffect``` que realizará a chamada da API e receberá os dados de um usuário falso via a API **randomuser** alterarando os dados via ```setUser()``` que implicará na atualização da renderização do componente JSX (HTML).
    * Adicionar o evento de clique ao Icone de atualização para novamente carregar um novo usuário.  
 
 # O que deve ser entregue?
