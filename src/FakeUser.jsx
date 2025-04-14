@@ -3,30 +3,13 @@ import { useState, useEffect } from "react"
 
 const _user = {
     name: "Ana Alface",
-    username: "crazylion685",
+    username: "anaalface",
     email: "ana@ana.com",
     urlPhoto: "https://picsum.photos/200/300"
 }
 
 export default function FakeUser() {
     const [ user, setUser ] = useState(_user)
-
-    async function loadUser() {
-        let resp = await fetch("https://randomuser.me/api/")
-        let data = await resp.json()
-        let fakeUser = data.results[0]
-        console.log("fakeUser",fakeUser);
-        setUser({
-            name: fakeUser.name.first + fakeUser.name.last,
-            email: fakeUser.email,
-            username: fakeUser.login.username,
-            urlPhoto: fakeUser.picture.medium
-        }) 
-    }
-
-    useEffect(() => {
-        loadUser()
-    },[])
 
     return (
         <>
@@ -47,7 +30,7 @@ export default function FakeUser() {
                         </div>
                     </div>
                 </div>
-                <div onClick={loadUser} className="bg-gray-400 p-1 rounded-lg flex items-center cursor-pointer hover:bg-gray-500">
+                <div className="bg-gray-400 p-1 rounded-lg flex items-center cursor-pointer hover:bg-gray-500">
                     <Icon icon="mdi-refresh" className="text-black text-3xl"/>
                 </div>
             </div>
